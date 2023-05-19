@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Vidaloka&display=swap');
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vidaloka', serif;
+    background-size: cover;
+    background-color:  rgb(238, 247, 238);
+    /* background-image: url("/Project FE/Home_Page/Media/bg.png"); */
+}
+
+
+h2{
+    margin-left:150px; 
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 50px;
+    font-size:70px;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    
+}
+h1{
+    margin-left:150px; 
+    text-align: left;
+    margin-top: 0%;
+    font-size:75px;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    
+}
+
+p{
+    color: rgb(22, 21, 21);
+    margin-left:150px; 
+    font-size: 20px;
+}
+
+
+button{
+    border-radius: 25px;
+    color: white;
+    background-color: #0eb408;
+    margin-left: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    width: 55px;
+    height: 45px;
+}
+
+
+.nav1{
+    background-color: #abdb84;
+    position: absolute;
+    bottom: 92%;
+    left: -2%;
+    width: 101%;
+  
+    
+}
+
+header li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 25px 0 25px;
+
+}
+#links1{
+    position: absolute;
+    bottom: 40%;
+    right: 70%;
+    text-decoration: none;
+    
+
+}
+#links{
+    float: right;
+
+}
+header img{
+    width: auto;
+    height: 70px;
+}
+header i{
+   margin-left: 0px;
+   margin-right: 0px;
+
+}
+
+
+
+
+
+
+
+nav{
+    bottom: 82%;
+    padding-left: 10%;
+    margin-top: 0;
+    position: absolute;
+    left:20%;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+nav li{
+    display: inline-block;
+    margin: 0 50px 0 25px;
+
+}
+nav a{
+    color: rgb(8, 102, 8);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.a-block w-50{
+    position: absolute;
+    float: right;
+    height: 50%;
+    width: 30%;
+    bottom: 30%;
+    left: 60%;
+    border-color: black;
+}
+.PUP {
+    position: absolute;
+    float: right;
+    height: 50%;
+    width: 30%;
+    bottom: 30%;
+    left: 60%;
+    border-color: black;
+
+
+}
+
+
+
+.carousel-inner{
+    position: absolute;
+    
+
+    bottom: 32%;
+    left: 60%;
+    border-color: black;
+
+
+}
+
+
+.clouds {
+    float: right;
+    max-width: 80%;
+    height: 50%;
+    margin-bottom: 0%;
+    position: absolute;
+    clear: both;
+    justify-content: center;
+    margin-top: 8rem;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    bottom: 26%;
+    right: 71%;
+    
+}
+header{
+    width: 70%;
+    margin-right: 20%;
+    margin-top: 7rem;
+    position: absolute;
+    bottom:35%;
+    margin-left: 30px;
+    left: 15%;
+}
+#logo{
+    background-color: none;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 66%;
+    right:81%;
+
+}
+.arrow{
+    height: 160px;
+    width: 150px;
+    position:absolute;
+    left: 35%;
+    bottom: 30%;
+}
+
+.design{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    float: left;
+    left: 24%;
+    bottom: 50%;
+    object-fit: contain;
+}
+.home{
+    position:absolute;
+    left: -1%;
+    top:0%;
+    width: 12%;
+    color:#abdb84 ;
+
+}
+.sign_in{
+    position:absolute;
+    left: 110%;
+    top:0%;
+    width: 15%;
+}
+.i {
+    position:absolute;
+    left:64%;
+    top: 30%;
+}
+ul input{
+    border-radius: 25px;
+    border:1px solid black;
+    outline: none;
+    padding: 0 25px;
+    height: 45px;
+    left: 4%;
+    top: 60%;
+    position: relative;
+    width: 350px;
+    
+    
+}
+#bg{
+    position: absolute;
+    bottom: auto;
+}
+.scrolldown{
+    position: absolute;
+    left: 35%;
+    top: 160%;
+
+}
+.scrolldown2{
+    position: absolute;
+    left: 42%;
+    top: 160%;
+
+}
+
+.donate{
+    width: 150px;
+}
+.tag{
+    position: absolute;
+    bottom: 10%;
+    width: 30%;
+    left: 53%;
+    font-size: 25px;
+    color: white;
+}
+
+/* #section2{
+    max-width: 100%;
+    height: 400vh;
+} */
+#section2 .scroll_down2{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #d7eea1;
+    border-radius: 90px;
+    position:absolute;
+    left: 50%;
+    top: 160%;
+    cursor: pointer;
+    
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex
+}
+.swiper {
+    width: 70%;
+    height: 50%;
+    position:relative;
+    left: 34%;
+    top:24%;
+  }
+.swiper-slide img{
+    height: 120%;
+    max-width: 67%;
+    bottom: 50%;
+    right: 100%;
+    padding: 0px;
+    align-self: auto;
+    
+
+}
+.swiper .swiper-button-prev {
+    position: absolute;
+    right: 40%;
+    color: #cdf095 ;
+}
+.swiper .swiper-button-next{ 
+    
+    position: absolute;
+    left: 58%;
+    color: #cdf095 ;
+
+}
+.font{
+    position: absolute;
+    bottom: 35%;
+    right: 80%;
+}
+

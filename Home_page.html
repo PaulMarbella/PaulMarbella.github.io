@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css\image.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/a36db9a80f.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+  <header class="nav1">
+    <div id="links1">
+    <i class="fa-solid fa-phone"></i>
+    <li><a href="#">+639-12-345-6789</a></li>
+    <i class="fa-solid fa-envelope"></i>
+    <li><a href="Volunteerconnect@gmail.com">Volunteerconnect@gmail.com"</a></li>
+    </div>
+
+    <div id ="links">
+    <li><a href="https://www.facebook.com/"><img src="./Media/fb.png" alt="#"></a></li>
+    <li><a href="https://twitter.com/home"><img src="./Media/twitter.png" alt="#"></a></li>
+    <li><a href="https://www.facebook.com/"><img src="./Media/instagram.png" alt="#"></a></li>
+    </div>
+  </header>
+   
+<section class="Section1">
+  <img src="./Media/logo2.png" id="logo">
+    <nav>
+        <ul>
+            <button type="button" class="home">Home</button>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <input type="text" placeholder="Search..."></input>
+            <div class="i"><img src="./Media/search.png"></div><br>
+
+            <button type="button" class="sign_in"> Register</button>
+        </ul>
+    </nav>
+  
+    
+    
+   <header>
+    <div class="font">
+    <h2 style="color: #9be46b;">VOLUNTEER</h2>
+    <h1 style="color: #6de691;"> CONNECT</h1>
+    <p>Being life saver for someone. <br>
+     Connecting you with meaningful ways to give.</p>
+    <button type="button" class="donate"> Donate </button>
+    <br/>
+    </div>
+    </header>
+
+<div class="container">  
+    <!-- Slider main container -->
+  <div class="swiper">
+  <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+      <div class="swiper-slide"><img src="./Media/Emergency.png"></div>
+      <div class="swiper-slide"><img src="./Media/Emergency.png"></div>
+      <div class="swiper-slide"><img src="./Media/Emergency.png"></div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+</div> 
+
+    <div class="image1">
+         <img src="./Media/arrow.png" class="arrow">
+         <img src="./Media/clouds.png" class="clouds">
+         <img src="./Media/design.png" class="design">
+    </div>
+    <div class="tag">
+    <p> Newsletter</p>
+    <br>
+    <p>Sign up for our monthly Newsletter to get the latest <br/> news, volunteer opportunities and updates.</p>
+    </div>
+    
+</section>  
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+
+  loop: true,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>
