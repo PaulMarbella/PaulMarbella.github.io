@@ -234,6 +234,7 @@ header{
     color:#0c0c0c ;
     background-color: #abdb84;
     border: #0c0c0c solid 1px;
+    box-shadow: none;
 
 }
 .sign_in{
