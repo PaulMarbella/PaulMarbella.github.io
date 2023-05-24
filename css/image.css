@@ -231,6 +231,7 @@ header{
     width: 12%;
     color:#0c0c0c ;
     background-color: #abdb84;
+    border: #0c0c0c solid 1px;
 
 }
 .sign_in{
